@@ -1,0 +1,257 @@
+body {
+    background-color: #fcf7f6;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    height: 100%;
+    margin: 0;
+}
+
+.top-container {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container .branding h1 {
+    letter-spacing: 4px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('img/img1.jpg');
+    min-height: 600px;
+}
+
+.pimg2 {
+    background-image: url('img/img2.jpg');
+    min-height: 500px;
+}
+
+.pimg3 {
+    background-image: url('img/img3.jpg');
+    min-height: 700px;
+}
+
+.pimg4 {
+    background-image: url('img/img4.jpg');
+    min-height: 700px;
+}
+
+.pimg5 {
+    background-image: url('img/img5.jpg');
+    min-height: 600px;
+}
+
+.pimg6 {
+    background-image: url(img/img6.jpg);
+    min-height: 600px;
+}
+
+.pimg7 {
+    background-image: url(img/img7.jpg);
+    min-height: 600px;
+}
+
+.pimg8 {
+    background-image: url(img/img8.jpg);
+    min-height: 650px;
+}
+
+.pimg9 {
+    background-image: url(img/img9.jpg);
+    min-height: 500px
+}
+
+.ptext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.ptext .border-trans {
+    background-color: transparent;
+}
+
+.light {
+    margin: 80px;
+    text-transform: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.light h1 {
+    font-size: 35px;
+}
+
+.light p {
+    line-height: 30px;
+}
+
+.light .italic {
+    font-style: italic;
+} 
+
+.light .stay {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #8e8e8e;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.light h2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.light button, .field button {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px 35px;
+    letter-spacing: 2px;
+    background-color: #fcf7f6;
+    border: solid 2px #000000;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.light button:hover, field button:hover {
+    color: #fcf7f6;
+    background-color: #000000;
+}
+
+.showcase {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.showcase .page-content {
+    display: flex;
+    display: inline-block;
+}
+
+.showcase .page-content img {
+    width: 215px;
+    height: 180px;
+    padding-bottom: 35px;
+}
+
+.hotels {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: none;
+    justify-content: center;
+}
+
+.hotels  .left, .right{
+    padding: 40px 100px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 20px;
+}
+
+.field {
+    margin: 80px 300px;
+    text-transform: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+}
+
+.field h1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.field input[type="text"] {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+
+.field textarea {
+    width: 100%;
+    height: 100px;
+    padding: 7px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+    margin-bottom: 17px;
+}
+
+.field p {
+    line-height: 7px;
+}
+
+.field button {
+    display: flex;
+    margin: 50px auto 120px auto;
+}
+
+#footer {
+    margin: 50px;
+    color: #8e8e8e;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+#footer a:hover {
+    color: #242526;
+}
